@@ -1,0 +1,38 @@
+﻿<Window x:Class="Prac_1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac_1"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="867">
+    <Grid Margin="0,10,0,0" Background="#FFEBECA6" Height="451" VerticalAlignment="Top">
+        <Label Content="Режим перевірки" HorizontalAlignment="Center" Height="63" Margin="0,10,0,0" VerticalAlignment="Top" Width="333" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Label Content="Кодове слово: " HorizontalAlignment="Left" Height="49" Margin="10,73,0,0" VerticalAlignment="Top" Width="189" FontFamily="Segoe UI Black" FontSize="24"/>
+        <Label Content="Кіл-сть спроб: " HorizontalAlignment="Left" Height="47" Margin="10,127,0,0" VerticalAlignment="Top" Width="189" FontSize="24" FontFamily="Segoe UI Black"/>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Height="47" Margin="204,127,0,0" VerticalAlignment="Top" Width="66" RenderTransformOrigin="0.552,-0.092" FontSize="18" FontFamily="Segoe UI Black">
+            <ListBoxItem Content="3" FontFamily="Arial Black" FontSize="24"/>
+            <ListBoxItem Content="5" FontFamily="Arial Black" FontSize="24"/>
+        </ComboBox>
+        <ComboBox x:Name="ComboBox2" HorizontalAlignment="Left" Height="47" Margin="364,127,0,0" VerticalAlignment="Top" Width="58" FontSize="15" FontFamily="Segoe UI Black">
+            <ListBoxItem Content="0.01"/>
+            <ListBoxItem Content="0.05"/>
+        </ComboBox>
+        <Label Content="Alpha: " HorizontalAlignment="Left" Height="51" Margin="275,127,0,0" VerticalAlignment="Top" Width="89" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="Label2" Content="Кількість введених символів: " HorizontalAlignment="Left" Height="41" Margin="10,195,0,0" VerticalAlignment="Top" Width="382" FontSize="24" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="text" HorizontalAlignment="Left" Height="42" Margin="10,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382" FontSize="24" FontFamily="Segoe UI Black" Background="#FF9DF186" KeyDown="TextBox_KeyDown" KeyUp="TextBox_KeyUp" MouseDoubleClick="text_MouseDoubleClick"/>
+        <Button x:Name="GoToMain" Content="GoToMain" HorizontalAlignment="Left" Height="47" Margin="62,334,0,0" VerticalAlignment="Top" Width="283" FontSize="24" FontFamily="Arial Black" Background="#FF82FDD3" Click="GoToMain_Click"/>
+        <Label Content="Статистичний аналіз: " HorizontalAlignment="Left" Height="52" Margin="478,73,0,0" VerticalAlignment="Top" Width="291" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="Dysp" Content="Дисперсії вибірок: " HorizontalAlignment="Left" Height="53" Margin="427,125,0,0" VerticalAlignment="Top" Width="396" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="PIdentify" Content="Р ідентифікації: " HorizontalAlignment="Left" Height="41" Margin="427,196,0,0" VerticalAlignment="Top" Width="396" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="P1Field" Content="Помилка 1-го роду: " HorizontalAlignment="Left" Height="42" Margin="427,265,0,0" VerticalAlignment="Top" Width="316" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="P2Field" Content="Помилка 2-го роду: " HorizontalAlignment="Left" Height="42" Margin="427,327,0,0" VerticalAlignment="Top" Width="316" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="Label1" Content="плагіатор" HorizontalAlignment="Left" Height="49" Margin="204,73,0,0" VerticalAlignment="Top" Width="141" FontSize="24" FontFamily="Segoe UI Black"/>
+        <Label x:Name="NumCount" Content="" HorizontalAlignment="Left" Height="33" Margin="381,201,0,0" VerticalAlignment="Top" Width="46" FontSize="18" FontFamily="Segoe UI Black"/>
+        <Label x:Name="Proverka" Content="" HorizontalAlignment="Left" Height="48" Margin="28,10,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="ProvT" Content="" HorizontalAlignment="Left" Height="60" Margin="145,10,0,0" VerticalAlignment="Top" Width="92"/>
+        <Label x:Name="SMax" Content="" HorizontalAlignment="Left" Height="34" Margin="605,22,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="SMin" Content="" HorizontalAlignment="Left" Height="34" Margin="707,21,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

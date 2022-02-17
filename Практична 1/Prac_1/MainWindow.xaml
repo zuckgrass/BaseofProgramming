@@ -1,0 +1,16 @@
+﻿<Window x:Class="Prac_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="276" Width="927">
+    <Grid Margin="0,0,10,-6" Background="#FFEAAB5F">
+        <Label Content="Система атентифікації користувача по клавіатурному почерку" HorizontalAlignment="Center" Margin="0,12,0,0" Width="780" FontSize="25" Height="70" VerticalAlignment="Top" FontFamily="Script MT Bold"/>
+        <Button x:Name="Button1" Content="Режим навчання" HorizontalAlignment="Left" Height="89" Margin="47,115,0,0" VerticalAlignment="Top" Width="219" FontSize="24" FontFamily="Segoe UI Black" Click="Button1_Click" Background="#FFBB7CF1"/>
+        <Button x:Name="Button2" Content="Режим перевірки" HorizontalAlignment="Center" Height="89" Margin="0,115,0,0" VerticalAlignment="Top" Width="234" FontFamily="Segoe UI Black" FontSize="24" RenderTransformOrigin="0.257,0.556" Background="#FFDBEC7C" Click="Button2_Click"/>
+        <Button x:Name="Button3" Content="Вихід із системи" HorizontalAlignment="Left" Height="89" Margin="644,115,0,0" VerticalAlignment="Top" Width="226" FontFamily="Segoe UI Black" FontSize="24" Click="Button3_Click" Background="#FFF50A0A"/>
+
+    </Grid>
+</Window>
