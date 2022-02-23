@@ -1,0 +1,23 @@
+﻿<Window x:Class="FirstWPF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstWPF"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="#FFF9E50A" SizeChanged="MyWindow_SizeChanged">
+        <Button x:Name="GoToMain" Content="Go to Main" HorizontalAlignment="Left" Height="61" Margin="64,51,0,0" VerticalAlignment="Top" Width="152" Click="GoToMain_Click" Background="#FFF702B6" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="myLabel" Content="Створила додаток:&#xD;&#xA;Пісоцька Софія Олександрівна&#xA;студентка групи КП-11&#xA;Київ - 2022 рік&#xA;" HorizontalAlignment="Left" Height="756" Margin="166,140,0,0" VerticalAlignment="Top" Width="1048" FontFamily="Broadway" FontSize="36" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>
