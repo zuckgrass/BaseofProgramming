@@ -1,0 +1,31 @@
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\bin\Debug\BestSalesman.exe.config
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\bin\Debug\BestSalesman.exe
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\bin\Debug\BestSalesman.pdb
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csprojAssemblyReference.cache
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\MainWindow.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\App.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman_MarkupCompile.cache
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman_MarkupCompile.lref
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\MainWindow.baml
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.g.resources
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.Properties.Resources.resources
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.GenerateResource.cache
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.CoreCompileInputs.cache
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.exe
+C:\Users\4labs\OneDrive\Рабочий стол\BestSalesman\BestSalesman\obj\Debug\BestSalesman.pdb
+C:\Users\38099\Documents\BestSalesman\BestSalesman\bin\Debug\BestSalesman.exe.config
+C:\Users\38099\Documents\BestSalesman\BestSalesman\bin\Debug\BestSalesman.exe
+C:\Users\38099\Documents\BestSalesman\BestSalesman\bin\Debug\BestSalesman.pdb
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.AssemblyReference.cache
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.SuggestedBindingRedirects.cache
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\MainWindow.g.cs
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\App.g.cs
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman_MarkupCompile.cache
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman_MarkupCompile.lref
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\MainWindow.baml
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.g.resources
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.Properties.Resources.resources
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.GenerateResource.cache
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.csproj.CoreCompileInputs.cache
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.exe
+C:\Users\38099\Documents\BestSalesman\BestSalesman\obj\Debug\BestSalesman.pdb
