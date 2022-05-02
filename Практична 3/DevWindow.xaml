@@ -1,0 +1,31 @@
+﻿<Window x:Class="Prac3.DevWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac3"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="Інформація про розробника" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF5F9ED4"/>
+                <GradientStop Color="#FFDAF826" Offset="0.561"/>
+                <GradientStop Color="#FF3F9DEF" Offset="0.301"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="      Проект виконаний &#xD;&#xA;студенткою групи КП-11&#xD;&#xA;     Пісоцькою Софією&#xD;&#xA;         Слава Україні!" HorizontalAlignment="Center" Height="252" Margin="0,93,0,0" VerticalAlignment="Top" Width="575" FontSize="36" FontFamily="Cooper Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="ExitFromSystem" Content="Вихід із системи" HorizontalAlignment="Left" Height="48" Margin="60,345,0,0" VerticalAlignment="Top" Width="264" BorderBrush="#FF492ADE" FontSize="24" FontFamily="Segoe UI Black" Click="ExitFromSystem_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Exit" Content="Закрити вікно" HorizontalAlignment="Left" Height="48" Margin="479,345,0,0" VerticalAlignment="Top" Width="264" BorderBrush="#FF492ADE" FontSize="24" FontFamily="Segoe UI Black" Click="Exit_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
